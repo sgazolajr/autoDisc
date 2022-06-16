@@ -76,7 +76,7 @@ autoDisc = function(data,
     Xnames = col_nameset[!col_nameset %in% c(y,exclude)]
   }else Xnames = include
   
-  set.seed(57)
+  if(!is.null(seed)) set.seed(seed)
   if(subsample_rows<1-0.00001) data = data[sample(nrow(data),nrow(data)*subsample_rows),]
   data_train = data[train_subset==1,]
   if(sum(is.na(data_train[,y]))) stop("NA Found in y (train subset).")
