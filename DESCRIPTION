@@ -1,6 +1,6 @@
 Package: autoDisc
 Title: Auto Discretize Vars
-Version: 0.9.4
+Version: 0.9.5
 Authors@R: 
     person("Sidnei", "Gazola Junior", , "sgazolajr@gmail.com", role = c("aut", "cre"))
 Description: Auto discretize vars for regression models.

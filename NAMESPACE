@@ -2,11 +2,6 @@
 
 export(autoDisc)
 export(autoGroup)
-export(dp_p)
-export(dp_r)
-export(dp_s)
-export(dpg_r)
-export(dpg_s)
 import(dplyr)
 import(rpart)
 import(stringr)
